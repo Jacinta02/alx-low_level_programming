@@ -1,4 +1,4 @@
-julien@ubuntu: ~ / 0x04$ cat 0-main.c
+julien@ubunt u: ~/ 0x04$ cat 0 -main.c
 #include "main.h"
 #include <stdio.h>
 
@@ -7,15 +7,14 @@ julien@ubuntu: ~ / 0x04$ cat 0-main.c
  *
  * Return: Always 0.
  */
-/int main(void)
+int main(void)
 {
 	char c;
-       	c = 'A';
-	
-	printf("%c: %d\n", c, _isupper(c));
+	c = 'A';
+printf("%c: %d\n", c, _isupper(c));
 	c = 'a';
-	 printf("%c: %d\n", c, _isupper(c));
-	 return (0);
+       	printf("%c: %d\n", c, _isupper(c));
+	return (0);
 }
 
 
