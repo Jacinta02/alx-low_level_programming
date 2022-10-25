@@ -2,12 +2,11 @@
 /**
  * reset_to_98 - takes the pointer and updates the value
  * @n: int to check
- * * This is task 0
+ * This is task 0
  * Return: 0 is success
  */
 
 void reset_to_98(int *n)
-description : void reset_to_98(int *n)
 {
 	*n = 98;
 }
