@@ -1,6 +1,7 @@
 #ifndef MAIN_H
 #define MAIN_H
 
+_putchar
 void reset_to_98(int *n);
 void swap_int(int *a, int *b);
 int _strlen(char *s);
@@ -13,10 +14,4 @@ void print_array(int *a, int n);
 char *_strcpy(char *dest, char *src);
 int _atoi(char *s);
 int _putchar(char c);
-
-
-<<<<<<< HEAD
-#endif /*Bwave Bright*/
-=======
 #endif
->>>>>>> eab62d6b11cd0d7efceac4c7d63d5c9f9e25cc4f
