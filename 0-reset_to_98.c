@@ -6,7 +6,7 @@
  * Return: 0 is success
  */
 
-description: void rreset_to_98(int *n)
+description: void reset_to_98(int *n)
 {
 	*n = 98;
 }
